@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    height: 15vh;
+    justify-content: space-between;
+    
+}
+.descricao{
+    display: flex;
+    align-items: center;
+}
+.sair{
+    align-self: end;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    height: 65vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.botao{
+    background-color: #0000ff;
+    border-color: blue;
+    color: white;
+    width: 10vh;
+}
+.motoristas{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}

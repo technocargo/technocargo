@@ -1,0 +1,55 @@
+*{ padding: 0;
+    margin: 0;
+
+}
+
+body{ background-color: beige;
+
+     height: 100vh;
+     width: 100vw;
+
+     display: flex;
+     flex-direction: column;
+
+}
+
+.container{ background-color: azure;
+    height: 100vh;
+     width: 100vw;
+
+
+}
+
+.head{ background-color: black;
+     height: 120px;
+
+}
+
+.main{background-color: white;
+    height: 400px;
+
+}
+
+.footer{background-color: black;
+    height: 160px;
+
+}
+
+.logo{
+    margin-left: 550px;
+}
+
+.letras{
+    color: white;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+.leter2{margin-left: 50px;
+padding: 20px;}
+
+.end{ margin-left: 50px;}
+
+.metade{ background-color: blue;}
+
+

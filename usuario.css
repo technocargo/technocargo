@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    height: 15vh;
+    justify-content: space-between;
+    
+}
+.main{
+    display:flex;
+    justify-content: space-around;
+    height: 65vh;
+    align-items: center;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    width: 50%;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 50%;
+}
+.menu p {
+    display: flex;
+    align-items: center;
+    width: 50vh;
+}
+.foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.edit{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 50px;
+}
+.sair{
+    align-self: end;
+}
+.descricao{
+    display: flex;
+    align-items: center;
+}
+
